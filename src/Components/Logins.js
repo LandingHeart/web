@@ -36,7 +36,7 @@ class Logins extends Component {
         return (
             <div className = "container">
                 <form onSummit = {this.handelSummit}>
-                <FormGroup controlId="email" bsSize="large">
+                <FormGroup controlId="email">
             <label>Email</label>
             <FormControl
               autoFocus
