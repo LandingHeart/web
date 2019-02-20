@@ -11,11 +11,7 @@ class Logins extends Component {
             Password: ''
         }
     }
-    handelChange = (e) =>{
-        this.setState({
-            [e.target.id] : e.target.value
-        });
-    }
+
     handelSummit = (e) =>{
          e.preventDefault();
     }
