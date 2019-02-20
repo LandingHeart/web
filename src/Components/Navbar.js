@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import NavLinks from './NavLinks'
+import '../Navbar.css'
 const Navbar = () =>{
     return (
         <nav className = "nav-wrapper grey darken-3">
