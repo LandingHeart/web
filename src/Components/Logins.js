@@ -53,7 +53,7 @@ class Logins extends Component {
               type="password"
             />
           </FormGroup>
-                <Button block bsSize="large" disabled={!this.validateForm()} type="submit" className = "btn2 btn btn-secondary btn-lg">
+                <Button disabled={!this.validateForm()} type="submit" className = "btn2 btn btn-secondary btn-lg">
             Login
           </Button>
                 <div className = "label2">
