@@ -12,8 +12,12 @@ class Logins extends Component {
         }
     }
 
-    handelSummit = (e) =>{
-         e.preventDefault();
+    handelSumit = (e) =>{
+         
+        if(this.state.Password === "pass" && this.state.Email === "admin@mail"){
+            e.preventDefault();
+        }else 
+        console.log("error");
     }
     handelEChange = (e) =>{
         this.setState({Email:e.target.value})
@@ -22,7 +26,11 @@ class Logins extends Component {
         this.setState({Password:e.target.value})
     }
     validateForm(){
+
         return this.state.Email.length > 0 && this.state.Password.length > 0;
+    }
+    handelClick = (e) =>{
+    
     }
     printState(){
         console.log(this.state.Password);
@@ -31,7 +39,7 @@ class Logins extends Component {
     render() {
         return (
             <div className = "container">
-                <form onSummit = {this.handelSummit}>
+                <form onSubmit = {this.handelSumit}>
                 <FormGroup controlId="email">
             <label>Email</label>
             <FormControl
@@ -49,7 +57,7 @@ class Logins extends Component {
               type="password"
             />
           </FormGroup>
-                <Button disabled={!this.validateForm()} type="submit" className = "btn2 btn btn-secondary btn-lg">
+                <Button onClick = {this.handelClick()} disabled={!this.validateForm()} type="submit" className = "btn2 btn-lg btn lighten-2">
             Login
           </Button>
                 <div className = "label2">
