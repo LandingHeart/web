@@ -12,13 +12,6 @@ class Logins extends Component {
         }
     }
 
-    handelSumit = (e) =>{
-         
-        if(this.state.Password === "pass" && this.state.Email === "admin@mail"){
-            e.preventDefault();
-        }else 
-        console.log("error");
-    }
     handelEChange = (e) =>{
         this.setState({Email:e.target.value})
     }
@@ -30,13 +23,16 @@ class Logins extends Component {
         return this.state.Email.length > 0 && this.state.Password.length > 0;
     }
     handelClick = (e) =>{
+        if(this.state.Email === "admin@mail" || this.state.Email === "@guest"){
+            //sumit form and go to admin page ma
+        }else if(this.state.Password === "pass" || this.state.password === "guest"){
+            //proceed to guest page
+        }
     
     }
-    printState(){
-        console.log(this.state.Password);
-        console.log(this.state.email);
-    }
     render() {
+      
+      
         return (
             <div className = "container">
                 <form onSubmit = {this.handelSumit}>
@@ -57,9 +53,16 @@ class Logins extends Component {
               type="password"
             />
           </FormGroup>
-                <Button onClick = {this.handelClick()} disabled={!this.validateForm()} type="submit" className = "btn2 btn-lg btn lighten-2">
+          <div>
+          
+            <Button to = "/MainPage" className = "btn2 btn-lg btn lighten-2"  disabled={!this.validateForm()} type="submit" >
+         
             Login
-          </Button>
+        
+            </Button>   
+     
+          </div>
+
                 <div className = "label2">
                 <label>Sign in with</label>
                 <Icons />
