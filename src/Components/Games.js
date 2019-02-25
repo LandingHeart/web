@@ -6,6 +6,8 @@ class Games extends React.Component{
         <div>
         
        game section
+       to be implemented, 
+       change html files to react js. 
 
 
         </div>  
