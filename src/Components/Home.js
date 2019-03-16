@@ -4,17 +4,11 @@ const Home = () =>{
     return(
         <div className ="app-container">
             <body>
-            <div>
+            <div className = "center">
                
-                    To raise to the next level, you have to start imagining.
-                
-                <div className = "border">
-
+                    To raise to the next level, you have to start imagining
                 </div>
-                </div>
-                <div className="img-contianer">
-                  
-                </div>
+               
             </body>
         </div>
     )

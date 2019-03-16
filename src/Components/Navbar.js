@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import '../Navbar.css'
 const Navbar = () =>{
     return (
-        <nav className = "nav-wrapper grey darken-2">
+        <nav className = "nav-wrapper grey darken-2 nav">
             <div className="container">
             <a href = '/'><Link to='/home' className = "brand-logo btn-floating btn logo">LS</Link></a>
             <ul className = "right">
