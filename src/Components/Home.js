@@ -1,6 +1,6 @@
 import React from 'react';
 import '../design.css'
-const Desgin = () =>{
+const Home = () =>{
     return(
         <div className ="app-contianer">
             <body>
@@ -16,4 +16,4 @@ const Desgin = () =>{
         </div>
     )
 }
-export default Desgin;
+export default Home;

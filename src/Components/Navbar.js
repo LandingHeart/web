@@ -6,7 +6,7 @@ const Navbar = () =>{
     return (
         <nav className = "nav-wrapper grey darken-3">
             <div className="container">
-            <a href = '/'><Link to='/' className = "brand-logo">Home</Link></a>
+            <a href = '/'><Link to='/home' className = "brand-logo btn-floating btn logo">LS</Link></a>
             <ul className = "right">
              
                 <li><Link to='/signin'>Log in</Link></li>
