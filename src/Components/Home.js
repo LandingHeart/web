@@ -1,15 +1,23 @@
 import React from 'react';
 import '../design.css'
+import placeholder from '../Images/imgHolder.jpg'
 const Home = () =>{
     return(
-        <div className ="app-container">
-            <body>
-            <div className = "center">
+        <div className ="container">
+            <p className = "div-divider center">
+                    To raise to the next level,<br/> you have to start imagining
+                    </p>
+            <div className = "quote content-container">
                
-                    To raise to the next level, you have to start imagining
+                    <div className="imgholder">
+                    <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>
+                    <div className = "imgholder2">
+                    <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>   
+                    </div>                 
+                    </div>
                 </div>
                
-            </body>
+            
         </div>
     )
 }
