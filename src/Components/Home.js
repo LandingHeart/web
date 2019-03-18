@@ -4,7 +4,7 @@ import placeholder from '../Images/imgHolder.jpg'
 const Home = () =>{
     return(
         <div className ="container">
-            <p className = "center">
+            <p className = "div-divider center">
                     To raise to the next level,<br/> you have to start imagining
                     </p>
             <div className = "quote content-container">

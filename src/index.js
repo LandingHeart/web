@@ -5,11 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import {BrowserRouter} from 'react-router-dom';
+import Home from './Components/Home'
 import Design from './Components/Home';
 ReactDOM.render( (
     <BrowserRouter>
+    
     <App />
     </BrowserRouter>),
+    
     
     document.getElementById('root'));
 
