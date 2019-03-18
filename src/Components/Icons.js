@@ -1,5 +1,5 @@
 import React from 'react';
-import '../logins.css'
+import '../CSS/logins.css'
 
 const Icons = () =>{
     return(

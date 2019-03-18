@@ -1,5 +1,5 @@
 import React from 'react';
-import '../design.css'
+import '../CSS/design.css'
 import placeholder from '../Images/imgHolder.jpg'
 const Home = () =>{
     return(
