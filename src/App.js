@@ -16,7 +16,7 @@ class App extends Component {
       <Footer />
       </div>
       <div>
-    <Home />
+        <Home />
       </div>
       </div>
       
