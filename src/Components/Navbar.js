@@ -7,7 +7,7 @@ const Navbar = () =>{
     return (
         <nav className = "nav-wrapper grey darken-2 nav">
             <div className="container">
-            <a href = '/'><Link to='/home' className = "brand-logo logo"> 
+            <a href = '/'><Link to='/' className = "brand-logo logo"> 
            
         <img src={logo} height="50" width="320" alt="logo" />
             </Link></a>

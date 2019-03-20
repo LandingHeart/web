@@ -11,13 +11,11 @@ class App extends Component {
       <Navbar />
       <Routes />
       
-      {/* WANT TO MAKE THAT A SPECIFIC PAGE BE RENDERED ON */}
-      <div className="footer-content">
-      <Footer />
-      </div>
-      <div>
+   
+    
+     
         <Home />
-      </div>
+        <Footer />
       </div>
       
     )
