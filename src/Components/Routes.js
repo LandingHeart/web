@@ -4,13 +4,14 @@ import About from './About';
 import SignIn from './SignIn';
 import games from './Games';
 import Blog from './Blog';
-import home from './Home';
+import Home from './Home';
 const Routes = () =>{
         return(
  
             <div>
             <Switch>
             {/* <Route exact path = '/' component = {home}></Route> */}
+            <Route exact path='/' component={Home}></Route>
             <Route path= '/SignIn' component ={SignIn}></Route>
             
             <Route path = '/Games' component ={games}></Route>

@@ -9,12 +9,12 @@ class App extends Component {
     return (
       <div className = "app">
       <Navbar />
-      <Routes />
+      <Routes /> 
       
-   
+      
     
      
-        <Home />
+        {/* <Home /> */}
         <Footer />
       </div>
       
