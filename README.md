@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * cd web 
 * npm install
 * npm start
-* localhost 3006
+* localhost 
 * with react.js
 * with react router
 * with materialize, bootstrap, css styling
