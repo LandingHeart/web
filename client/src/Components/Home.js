@@ -1,7 +1,6 @@
 import React from 'react';
 import '../CSS/design.css'
 import placeholder from '../Images/imgHolder.jpg'
-import Routes from './Routes'
 const Home = () =>{
     return(
         <div className ="container">
@@ -9,11 +8,14 @@ const Home = () =>{
                     To raise to the next level,<br/> you have to start imagining
                     </p>
                     
-            <div className = "quote content-container">
+            <div className = "content-container">
                
-                    <div className="imgholder">
+                <div className="img-holder">
                     <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>
                     <div className = "imgholder2">
+                    <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>   
+                    </div> 
+                    <div className = "imgholder3">
                     <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>   
                     </div>                 
                     </div>

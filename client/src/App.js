@@ -10,8 +10,6 @@ class App extends Component {
       <Navbar />
       <Routes /> 
       
-      
-    
      
         {/* <Home /> */}
         <Footer />
