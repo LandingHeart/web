@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # webapp and blog
-* cd web 
+* cd client
 * npm install
 * npm start
 * localhost 
