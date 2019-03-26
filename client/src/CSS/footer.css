@@ -1,22 +1,25 @@
 .footer{
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
 
-    column-count: 2;
+    column-count: 3;
     -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 0px;
     list-style: none;
-    border-style: solid;
-    border-color: grey;
-    margin-bottom: 100px;
-    height: 100%;
+    
+    column-rule-style: solid;
+    column-rule-color: grey;
+    column-rule-width: 1px;
+    margin-bottom: 10px;
+    
     margin-top: 100px;
+    
+    background-color:white;
+    margin-bottom: -50px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+
+  
 }
-.content {
-    min-height: 100%;
-  }
-  .content-inside {
-    padding: 20px;
-    padding-bottom: 10px;
-  }
- 
+
