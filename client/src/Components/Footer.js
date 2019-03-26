@@ -2,16 +2,20 @@ import React from 'react'
 import '../CSS/footer.css'
 const Footer = () => {
     return(
-        <div className = "center footer">
-            <ul className="columns" data-columns="2">
-                <li>A</li>
+        <div className = "container center footer">
+            
+                <div className="content">
+                <div className="content-inside">
                 <li>B</li>
                 <li>C</li>
                 <li>D</li>
-                <li>E</li>
-                <li>F</li>
-                <li>G</li>
-            </ul>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                
+                </div>
+                </div>
+            
         </div>
     )
 }
