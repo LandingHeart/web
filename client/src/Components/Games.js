@@ -1,6 +1,5 @@
 import React from 'react';
 import '../CSS/design.css'
-import placeholder from '../Images/imgHolder.jpg'
 const Games = () =>{
     return(
         <div className ="container">
