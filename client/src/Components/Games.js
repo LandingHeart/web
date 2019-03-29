@@ -13,7 +13,7 @@ const Games = () =>{
                
                 <div className="img-holder">
                     
-                    </div>                 
+                              
                     </div>
                 </div>
                

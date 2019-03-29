@@ -13,7 +13,7 @@ const Blog = () =>{
                
                 <div className="img-holder">
                     
-                    </div>                 
+                         
                     </div>
                 </div>
                
