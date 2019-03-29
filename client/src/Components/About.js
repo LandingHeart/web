@@ -12,12 +12,7 @@ const About = () =>{
             <div className = "content-container">
                
                 <div className="img-holder">
-                    <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>
-                    <div className = "imgholder2">
-                    <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>   
-                    </div> 
-                    <div className = "imgholder3">
-                    <img src = {placeholder} alt = "placeholder" height = "200" width = "340"/>   
+            
                     </div>                 
                     </div>
                 </div>
