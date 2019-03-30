@@ -4,6 +4,13 @@ import placeholder from '../Images/imgHolder.jpg'
 const Home = () =>{
     return(
         <div className ="container">
+        
+         <Link to={'./list'}>
+        <button variant="raised">
+            My List
+        </button>
+      </Link>
+
             <p className = "div-divider center">
                     To raise to the next level,<br/> you have to start imagining
                     </p>
