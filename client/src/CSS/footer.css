@@ -6,7 +6,6 @@
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 0px;
     list-style: none;
-    
     column-rule-style: solid;
     column-rule-color: grey;
     column-rule-width: 1px;
