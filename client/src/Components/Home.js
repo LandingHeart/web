@@ -5,11 +5,11 @@ const Home = () =>{
     return(
         <div className ="container">
         
-         <Link to={'./list'}>
+         {/* <Link to={'./list'}>
         <button variant="raised">
             My List
         </button>
-      </Link>
+      </Link> */}
 
             <p className = "div-divider center">
                     To raise to the next level,<br/> you have to start imagining
