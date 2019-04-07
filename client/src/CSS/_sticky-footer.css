@@ -22,3 +22,12 @@
     height: 0;
     visibility: hidden;
 }
+
+footer{
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: grey;
+    text-align: center;
+
+}

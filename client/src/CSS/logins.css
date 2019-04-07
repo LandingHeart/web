@@ -12,6 +12,7 @@
       height: 400px;
       border-radius: 0.1rem;
       background-color: white;
+      margin-bottom: -400px;
     }
   }
 .label2{
