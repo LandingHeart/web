@@ -5,9 +5,9 @@
       margin: 0 auto;
       margin-top: 100px;
       max-width: 400px;
-      -webkit-box-shadow: 0px 0px 1px 1px  #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    0px 0px 1px 1px #ccc;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         0px 0px 1px 1px #ccc; 
+      -webkit-box-shadow: 3px 3px 3px 3px  #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 3px 3px #ccc; 
       padding: 10px;
       height: 400px;
       border-radius: 0.1rem;
@@ -19,7 +19,7 @@
 }
 .btn2{
     width: 100%;
-    margin-bottom: 110px;
+   
     margin-top: 10px;
     font-size: 20px;
     

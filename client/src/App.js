@@ -2,18 +2,25 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar';
 import Routes from './Components/Routes';
 import Footer from './Components/Footer';
-import { Route, Switch } from 'react-router-dom';
 
 
 class App extends Component {
   render() {
    return(
-     <div>
-        <Navbar />
-       <Routes />
-      
-      <Footer />
-      </div>
+     
+      <div className="App Site">
+                      <div className="Site-content">
+                    <div className="App-header">
+                    <Navbar />
+                    <Routes />
+                    </div>
+                    <div className="main">
+                        {/* <Main /> */}
+                    </div>
+                </div>
+                <Footer />
+            </div>
+    
    )
    
   }
