@@ -1,13 +1,13 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+// import React from 'react';
+// import {Link} from 'react-router-dom';
 
-const NavLinks = () =>{
-    return (
-        <ul className = 'right'>
-        <li><a href = '/home'> Log in</a></li>
+// const NavLinks = () =>{
+//     return (
+//         <ul className = 'right'>
+//         <li><a href = '/home'> Log in</a></li>
         
-        </ul>
+//         </ul>
    
-    )
-}
-export default NavLinks;
+//     )
+// }
+// export default NavLinks;

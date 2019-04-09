@@ -5,14 +5,12 @@ import SignIn from './SignIn';
 import games from './Games';
 import Blog from './Blog';
 import Home from './Home';
-import List from './List';
 const Routes = () =>{
         return(
  
             <div>
             <Switch>
             <Route exact path='/' component={Home}></Route>
-            <Route path='/list' component={List}/>
             <Route path= '/SignIn' component ={SignIn}></Route>
             
             <Route path = '/Games' component ={games}></Route>
