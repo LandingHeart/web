@@ -6,8 +6,8 @@ const Navbar = () =>{
     return (
         <nav className = "nav-wrapper nav">
             <div className="container">
-           <a href = '/'><Link to='/' className = "brand-logo logo" > SL
-            </Link></a>
+           <Link to='/' className = "brand-logo logo" > <a href = '/'></a>SL
+            </Link>
             <ul className = "right">
                 <li><Link to='/signin'>Log in</Link></li>
                 <li><Link to='/games'>Game</Link></li> 
