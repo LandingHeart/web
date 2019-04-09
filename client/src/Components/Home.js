@@ -1,14 +1,12 @@
 import React from 'react';
 import '../CSS/design.css'
-import placeholder from '../Images/imgHolder.jpg'
 import Icons from './Icons';
-import Scrollspy from '/Users/shinan/Documents/myProjects/reactProject/web/client/node_modules/react-scrollspy';
+
 
 const Home = () =>{
     return(
         <div>
-       
-   
+
                  <section className = "brand-quote" id = "section-1">
                     <div className = "container">
                     <p className = "div-divider center">
