@@ -8,9 +8,9 @@ const Button = () =>{
       }
     return(
         <div>
-            <button onClick ={onclick} className = "btn btn-primary">
-                click me
-
+            <button type = "submit" onClick ={onClick} className = "btn btn-primary">
+            Resume
+                <a href="path_to_file" download="proposed_file_name">  </a>
                 </button>
             </div>
     )
