@@ -1,5 +1,6 @@
 import React from 'react'
 import '../CSS/button.css';
+import DownloadLink from "react-download-link";
 const Button = () =>{
     function onClick(e) {
         e.preventDefault();
@@ -7,12 +8,19 @@ const Button = () =>{
         console.log('The link was clicked.');
       }
     return(
-        <div>
-            <button type = "submit" onClick ={onClick} className = "btn btn-primary">
-            Resume
-                <a href="path_to_file" download="proposed_file_name">  </a>
-                </button>
-            </div>
+        <div className="columns download">
+       
+       <div className = "icon-container">
+                <ul>
+                    
+                    <li className = "center icons"><a href="https://www.linkedin.com/in/shinan-liu-162172153/"><i className="fa fa-linkedin"></i></a></li>
+                    <li className = "center icons"><a href="https://github.com/LandingHeart"><i className="fa fa-github"></i></a></li>
+                    <li className = "center icons"><a href="https://www.slideshare.net/slideshow/embed_code/key/ufrX23ocQ9JX3O" download><i className="fa fa-file"></i>
+                    </a></li>           
+
+                </ul>
+        </div>
+     </div>
     )
 }
 export default Button;

@@ -20,10 +20,7 @@ const Home = () =>{
                     <Button />
                     </div>
                     </div>
-                    
-                   
-                      
-               
+   
                     </section>
             <section id = "section-3">
                 <div className="container">
