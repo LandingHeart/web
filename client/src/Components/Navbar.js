@@ -5,14 +5,11 @@ import logo from '../Images/logoPlaceholder.jpg'
 import '../CSS/Navbar.css'
 const Navbar = () =>{
     return (
-        <nav className = "nav-wrapper grey darken-2 nav">
+        <nav className = "nav-wrapper nav">
             <div className="container">
-            <a href = '/'><Link to='/' className = "brand-logo logo"> 
-           
-        <img src={logo} height="50" width="320" alt="logo" />
+           <a href = '/'><Link to='/' className = "brand-logo logo" > SL
             </Link></a>
             <ul className = "right">
-             
                 <li><Link to='/signin'>Log in</Link></li>
                 <li><Link to='/games'>Game</Link></li> 
                 <li><Link to='/about'>About</Link></li>
