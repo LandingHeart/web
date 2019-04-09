@@ -14,7 +14,7 @@ const Button = () =>{
                     
                     <li className = "center icons"><a href="https://www.linkedin.com/in/shinan-liu-162172153/"><i className="fa fa-linkedin"></i></a></li>
                     <li className = "center icons"><a href="https://github.com/LandingHeart"><i className="fa fa-github"></i></a></li>
-                    <li className = "center icons"><a href="https://www.slideshare.net/slideshow/embed_code/key/ufrX23ocQ9JX3O" download><i className="fa fa-file"></i>
+                    <li className = "center icons"><a href="https://www.slideshare.net/slideshow/embed_code/key/ufrX23ocQ9JX3O"  title="Resume" download = "resume"><i className="fa fa-file"></i>
                     </a></li>           
 
                 </ul>

@@ -12,8 +12,9 @@ const Home = () =>{
                  <section className = "brand-quote" id = "showcase">
                     <div className = "container">
                     <p className = "div-divider center p-text">
-                    To raise to the next level,<br/> you have to start imagining
+                    To raise to the next level, start imagining.
                     </p>
+                    
                     <div id = "b-pos">
                     <Button />
                     </div>

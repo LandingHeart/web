@@ -6,7 +6,11 @@ const Navbar = () =>{
     return (
         <nav className = "nav">
             <div className="container">
-           <Link to='/' className = "navbar-brand" > <a href = '/'></a>SL
+           <Link to='/' className = "navbar-brand" > 
+           <a class="navbar-brand" href="#">
+          <img src="./Images/logo.jpg" alt="" />
+                </a>
+
             </Link>
             <ul className = "right">
                 <li className = "nav-item"><Link to='/signin' className = "nav-link">Log in</Link></li>
