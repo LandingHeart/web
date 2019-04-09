@@ -1,18 +1,19 @@
 
 @media all and (min-width: 300px) {
   
-    .container form {
+    .login-container form {
       margin: 0 auto;
       margin-top: 100px;
       max-width: 400px;
       -webkit-box-shadow: 3px 3px 3px 3px  #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
       -moz-box-shadow:    3px 3px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 3px 3px #ccc; 
+      box-shadow:         3px 3px 5px 6px #ccc;
+      
       padding: 10px;
-      height: 400px;
+      height: 800px;
       border-radius: 0.1rem;
       background-color: white;
-      margin-bottom: -400px;
+      
     }
   }
 .label2{

@@ -34,7 +34,7 @@ class Logins extends Component {
       
       
         return (
-            <div className = "container">
+            <div className = "login-container">
                 <form onSubmit = {this.handelSumit}>
                 <FormGroup controlId="email">
             <label>Email</label>
