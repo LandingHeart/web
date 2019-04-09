@@ -1,7 +1,7 @@
-nav{
+.nav{
 
     background-color: #35424a;
-    
+    height: 70px;
 }
 .logo{
     margin-top: 0px;

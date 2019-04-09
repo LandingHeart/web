@@ -4,15 +4,18 @@ import {Link} from 'react-router-dom';
 import '../CSS/Navbar.css'
 const Navbar = () =>{
     return (
-        <nav className = "nav-wrapper nav">
+        <nav className = "nav">
             <div className="container">
-           <Link to='/' className = "brand-logo logo" > <a href = '/'></a>SL
+           <Link to='/' className = "navbar-brand" > <a href = '/'></a>SL
             </Link>
             <ul className = "right">
-                <li><Link to='/signin'>Log in</Link></li>
-                <li><Link to='/games'>Game</Link></li> 
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/blog'>Blog</Link></li>
+                <li className = "nav-item"><Link to='/signin' className = "nav-link">Log in</Link></li>
+
+                <li className = "nav-item"><Link to='/games' className = "nav-link">Game</Link></li> 
+
+                <li className = "nav-item"><Link to='/about' className = "nav-link">About</Link></li>
+
+                <li className = "nav-item"><Link to='/blog' className = "nav-link">Blog</Link></li>
             </ul>
             </div>
       
