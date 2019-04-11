@@ -6,15 +6,11 @@ const Navbar = () =>{
     return (
         <nav className = "nav navbar navbar-dark">
             <div className="container">
-           <Link to='/' className = "navbar-brand" > 
+           <Link to='/' className = "navbar-brand logo-item" > 
             SL
             </Link>
             <ul className = "right">
                 <li className = "nav-item"><Link to='/signin' className = "nav-link">Log in</Link></li>
-
-                <li className = "nav-item"><Link to='/games' className = "nav-link">Game</Link></li> 
-
-                <li className = "nav-item"><Link to='/about' className = "nav-link">About</Link></li>
 
                 <li className = "nav-item"><Link to='/blog' className = "nav-link">Blog</Link></li>
             </ul>

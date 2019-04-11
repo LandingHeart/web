@@ -91,6 +91,11 @@ body{
   .btn{
       margin-top: 50px;
   }
+  .logo-item{
+    background-image: url('../Images/image.jpg') no-repeat;
+
+
+  }
 
   #b-pos{
     justify-content: center;
