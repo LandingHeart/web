@@ -9,7 +9,7 @@ const Home = () =>{
         <body className = "site">
             <main className = "site-content">
               <div>
-                 <section className = "brand-quote" id = "showcase">
+                 <section className = "brand-quote section-1" id = "showcase">
                     <div className = "container">
                     <p className = "div-divider center p-text">
                     To raise to the next level, start imagining.
@@ -19,20 +19,16 @@ const Home = () =>{
                     <Button />
                     </div>
                     </div>
-                    </section>
-            <section id = "section-3">
+             
                 <div className="container">
-                <h3>  Projects </h3>
-                <p>
-                What is Lorem Ipsum?
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    </p>
+          
                     <div className="row">
                      <div className = "col">
                      <div className="card">
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="/" className="btn btn-primary">Go somewhere</a>
+                            <p className="card-text">Some quick example text to build on the card .</p>
+                            <img src="https://media.giphy.com/media/LHZyixOnHwDDy/giphy.gif" title="this slowpoke moves" />
+                            
                         </div>
                         </div>
                         
@@ -40,8 +36,8 @@ const Home = () =>{
                      <div className="card">
                        
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                            <p className="card-text">Some quick example text to build on the card .</p>
+                           
                    
                        
                         </div>
@@ -51,8 +47,8 @@ const Home = () =>{
                      <div className="card">
                         
                             <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="/" className="btn btn-primary">Go somewhere</a>
+                            <p className="card-text">Some quick example text to build on the card </p>
+                           
                      
                         </div>
                         </div>
@@ -60,6 +56,7 @@ const Home = () =>{
                 </div>
                      </div>
             </section>
+            
             <section id = "section-2">
                 <div className="container">
                 <h3> My project</h3>
@@ -70,7 +67,7 @@ const Home = () =>{
                 
             </div>
             </section>
-            <section id = "section-2">
+            <section id = "section-3">
                 <div className="container">
                 <h3> My project</h3>
                 <p>

@@ -2,3 +2,18 @@
 
     opacity: .7;
 }
+.fa-file{
+    background-color: grey;
+    color: white;
+}
+.fa-code{
+    background-color:  rgb(82, 80, 80);;
+}
+.fa-github{
+    color: white;
+    background: hsl(210, 12%, 16%);
+}
+i::before{
+    background:transparent;
+    opacity: .9;
+}

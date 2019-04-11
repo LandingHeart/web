@@ -16,10 +16,10 @@ html{
   
 }
 .p-text {
-    margin-top: 270px;
+    margin-top: 100px;
     font-size: 20px;
     font: 20px/1.5 Arial, Helvetica, sans-serif, bold;
-    color:  white;
+    color: black;
    
 
 }
@@ -28,35 +28,28 @@ html{
     
     border-color: white;
 }
-.icon-pos{
-    text-align: center;
-    margin-left:200px;
-}
-
 .container{
     width: 80%;
     margin: auto;
     overflow: hidden;
     
 }
+body{
+  background: url('../Images/image.jpg') no-repeat 0 -100px;
+}
 .brand-quote{
     min-height: 800px;
-    background: url('../Images/image.jpg') no-repeat 0 -100px;
-
+    
+    height: 800px;
+    margin-bottom: -160px;
 }
-
-#showcase{
-    margin-top: 100px;
-    min-height: 400px;
-   
-}
-
 * {
     box-sizing: border-box;
   }
   
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
   }
   
   /* Float four columns side by side */
@@ -92,13 +85,13 @@ html{
     text-align: center;
     background-color: #f1f1f1;
     width: 18rem;
-    height: 260px;
+    height: 450px;
+    
   }
   .btn{
       margin-top: 50px;
   }
-  #showcase{
-  }
+
   #b-pos{
     justify-content: center;
     align-items: center;
@@ -107,3 +100,6 @@ html{
   }
 
   
+#section-2{
+  margin-top: 100px;
+}

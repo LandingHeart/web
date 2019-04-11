@@ -19,7 +19,6 @@ class Logins extends Component {
         this.setState({Password:e.target.value})
     }
     validateForm(){
-
         return this.state.Email.length > 0 && this.state.Password.length > 0;
     }
     handelClick = (e) =>{
