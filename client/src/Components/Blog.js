@@ -6,17 +6,11 @@ const Blog = () =>{
         
             <p className = "div-divider center">
             placeholder content for blog post
-                    </p>
-                    
+                    </p>      
             <div className = "content-container">
-               
                 <div className="img-holder">
-                    
-                         
                     </div>
                 </div>
-               
-            
         </div>
     )
 }
